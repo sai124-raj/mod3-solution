@@ -1,0 +1,79 @@
+*{
+  font-family:courier;
+ /* box-sizing:border-box;*/
+}
+#header-nav {
+  background-color:#4682b4;
+  border-radius: 0;
+  border: 0;
+  margin:0;
+}
+#nav-list li>a:hover{
+  color:white;
+}
+.navbar{
+  padding:15px;
+}
+.navbar-brand h1 { /*foodllc*/
+  color: #000; 
+  font-size: 1.8em;
+  font-weight: 600;
+  margin:0;
+}
+.navbar-brand a:hover{
+  text-decoration:none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #141414;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#nav-list a{/*list in menu */
+  text-align: center;
+  font-weight:600;
+  font-size:1.4em;
+  color:#000;
+  
+}
+#main-content-title{
+  font-weight:900;
+  font-size:2em;
+}
+.row>section{
+  border:10px solid white;
+}
+.row section a{
+  color:#191970;
+  font-weight:900;
+}
+.row section a:hover{
+  color:magenta;
+  text-decoration:none;
+}
+section{
+  background-color:#c0c0c0;
+  margin-bottom:18px;
+  
+}
+.category-title h3{
+  font-weight:900;
+  color:#000;
+}
+  /* sizes*/
+@media (min-width: 1200px) {
+  #nav-list a{
+    display:none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  #nav-list a{
+    display:none;
+  }  
+}
+@media (max-width: 767px) {
+  .row>section{
+    border:25px solid white;
+  }
+}
